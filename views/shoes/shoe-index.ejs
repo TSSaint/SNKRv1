@@ -1,0 +1,38 @@
+<% include ../partials/boilerplate %>
+<div id="nav-container">
+    <ul>
+      <li>Home</li><li>Add</li>
+    </ul>
+</div>
+<div class="hero">
+    <h1>SNKR</h1>
+</div>
+
+<div class="shoe-container">
+    <% for (let shoe of data) { %>
+        <div class="shoe">
+            <!-- <img src='<% data.url %>'</img> -->
+            <h2><%= shoe.model %></h2>
+            <h3><%= shoe.description %></h3>
+            <br>
+            <h2>Size: <%= shoe.size %></h3>
+            <div class="links">
+                <a class="linkto" href="/shoes/<%= shoe.id %>">View</a>
+                <form method="POST" action="/shoes/<%= shoe.id %>?_method=DELETE">
+                    <input type="submit" value="Delete" />
+                </form>
+            </div>
+        </div>
+    <% } %>
+</div>
+
+<% include ../partials/end %>
+<div class="linkback">
+    <a class="seeall" href="/shoes/">Collection</a>
+</div>
+
+<div id="ftr-container">
+    <ul>
+      <li>2017 © SNKR Digital</li>
+    </ul>
+</div>

@@ -1,0 +1,23 @@
+<% include ../partials/boilerplate %>
+<div class="hero">
+</div>
+
+<div class="shoe-container">
+    <div class="shoe">
+        <img src='<% data.url %>'</img>
+        <h2><%= data.model %></h2>
+        <h3><%= data.description %></h3>
+        <h2><%= data.size %></h3>
+        <div class="links">
+            <a href="/shoes/<%= data.id %>/edit">Edit</a>
+            <form method="POST" action="/shoes/<%= data.id %>?_method=DELETE">
+                <input type="submit" value="Delete" />
+            </form>
+        </div>
+    </div>
+    <div class="linkback">
+        <a class="seeall" href="/shoes/">Collection</a>
+    </div>
+</div>
+
+<% include ../partials/end %>

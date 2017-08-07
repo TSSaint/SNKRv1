@@ -1,0 +1,23 @@
+<% include ../partials/boilerplate %>
+
+<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("p").click(function(){
+        $(this).hide();
+    });
+});
+CURRENTLY DISPLAYS AN OBJECT
+FUTURE: WRITE SOME FUNCTION THAT HANDLES POST-LOGIN
+</script> -->
+<div class='hero-login'>
+  <form method='POST' action='/auth/login'>
+    <input name='username' type='text' placeholder='username' required />
+    <input name='password' type='password' placeholder='password' required />
+    <br>
+    <br>
+    <input type='submit' value='Enter' />
+  </form>
+</div>
+
+<% include ../partials/end %>

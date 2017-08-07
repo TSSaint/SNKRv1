@@ -1,0 +1,10 @@
+<% include ../partials/boilerplate %>
+<div class="hero">
+<form method="POST" action="/shoes/<%= data.id %>?_method=PUT">
+    <input name="model" type="text" value="<%= data.model %>" />
+    <input name="size" type="number" value="<%= data.size %>" />
+    <input name="description" type="text" value="<%= data.description %>" />
+    <input type="submit" value="Edit" />
+</form>
+</div>
+<% include ../partials/end %>
