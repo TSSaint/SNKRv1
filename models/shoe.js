@@ -26,7 +26,7 @@ Shoe.update = (shoe, id) =>{
         UPDATE shoes SET
         model = $1,
         size = $2,
-        description = $3,
+        description = $3
         WHERE id = $4
         RETURNING *
     `,[shoe.model, shoe.size, shoe.description, id]);

@@ -29,6 +29,7 @@ shoeController.show = (req, res) =>{
 };
 
 shoeController.create = (req, res) =>{
+    console.log(req.body.description)
     Shoe.create({
         model: req.body.model,
         size: req.body.size,

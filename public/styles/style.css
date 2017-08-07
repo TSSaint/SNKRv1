@@ -110,11 +110,16 @@ nav ul li:hover a {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  flex: 1 700px;
+  flex: 1 720px;
   background-image: url(/images/shoes-hero.png);
   background-size: cover;
   background-position: center center;
-  background-color: blue;
+  background-color: gray;
+  /* GRADIENT 
+  background-color: background-image: -webkit-gradient(linear, left top, left bottom, from(start-color), to(end-color));
+  background-image: -webkit-linear-gradient(top, start-color, end-color);
+  background-image: -moz-linear-gradient(top, start-color, end-color);
+  background-image: linear-gradient(to bottom, start-color, end-color);; */
   background-blend-mode: multiply;
   color: white;
 }
@@ -211,13 +216,17 @@ nav ul li:hover a {
 
 .links {
   display: flex;
-  font-size: 0.8em;
+  font-size: 24px;
+  font-weight: 400;
+  letter-spacing: 0px;
+  /* font-size: 0.5em; */
+  margin: 0px;
   color: white;
   text-decoration: none;
-  background-color: blue;
+  background-color: grey;
+  /* border-bottom: 1px black; */
   justify-content: space-around;
-  margin: 0px;
-  padding: 0px;
+  padding: 16px;
 }
 
 .links a {
