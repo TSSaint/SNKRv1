@@ -1,4 +1,4 @@
-\c sneaker_base
+-- \c sneaker_base
 
 CREATE TABLE IF NOT EXISTS shoes (
   id SERIAL PRIMARY KEY,
