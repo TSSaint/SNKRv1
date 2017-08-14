@@ -1,5 +1,9 @@
 INSERT INTO shoes (model, size, description) VALUES
 (
+  'Test',
+  777,
+  'See buttons to edit!'
+),
   'Rick Owens',
   11,
   'Black'
