@@ -29,7 +29,12 @@
  app.use(passport.session());
 
  // static "stuff"
- app.use(express.static('public'));
+//  app.use(express.static('public'));
+
+ 	
+
+
+app.use(express.static(__dirname + './public'));
 
  // sets up our views
  app.set('views', path.join(__dirname, 'views'));
@@ -72,11 +77,11 @@
     });
  })
 
- app.get('*', (req, res) => {
-     res.render('index', {
-         message: 'Hello World!',
-         currentPage: 'Home',
-         documentTitle: 'sneakerbase',
-         subTitle: 'Footwear is life.',
-    });
- })
+//  app.get('*', (req, res) => {
+//      res.render('index', {
+//          message: 'Hello World!',
+//          currentPage: 'Home',
+//          documentTitle: 'sneakerbase',
+//          subTitle: 'Footwear is life.',
+//     });
+//  })
