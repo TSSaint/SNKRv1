@@ -20,10 +20,6 @@ const options = {
 
 // const db = setDatabase();
 
-
-
-
-
 const pgp = require('pg-promise')(options);
 
 let db;
@@ -37,7 +33,5 @@ if (process.env.NODE_ENV === 'development' || !process.env.NODE_ENV) {
 } else if (process.env.NODE_ENV === 'production') {
   db = pgp(process.env.DATABASE_URL);
 }
-
-
 
 module.exports = db;
