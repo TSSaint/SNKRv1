@@ -56,7 +56,11 @@ To get a figure of these, several people were profiled over the course of a few 
     13 "path": "^0.12.7",
     14 "pg-promise": "^6.3.7",
     15 "psql": "0.0.1"
+<<<<<<< HEAD
     
+=======
+---   
+>>>>>>> 70bd925df927d27e56b4731fa902935c358843c0
 1 bcrypt: used to encrypt/hash the security flaw that occurs when a user submits a password upon registration. Essentially hides the passwords in the database
 2 body-parser: essentially used to grab JSON of data; also, this returns middleware that only parses json
 3 cookie-parser: essentially used to parse a passed cookie
@@ -73,9 +77,23 @@ To get a figure of these, several people were profiled over the course of a few 
 14 pg-promise: allows for calling SQL in the application to render data from a database
 15 psql: allows the use of Postgres in node
 
+<<<<<<< HEAD
 - The technologies, APIs, and modules you used and a description of each
 
 
 A code snippet of a part of the app you're particularly proud of
 Any things you plan to fix or features you plan to add
 Instructions for downloading the code and running it on localhost
+=======
+---
+A code snippet of a part of the app you're particularly proud of:
+TBD
+
+---
+Any things you plan to fix or features you plan to add:
+TBD
+
+---
+Instructions for downloading the code and running it on localhost:
+TBD
+>>>>>>> 70bd925df927d27e56b4731fa902935c358843c0
