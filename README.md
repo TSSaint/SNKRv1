@@ -35,56 +35,46 @@ To get a figure of these, several people were profiled over the course of a few 
 
 ## Technologies
 #### The App:
-- MVC (Model View Controller) model using CSS, JS and EJS to render the page
-- CRUD functionality enabled on local host, stored with SQL, returning JSON and showing page to user in specific views
-- RESTful routes using the .post, .get., .put., and .delete
-- Heroku deployment with Git as well as an back-end
-- API's: none for now but will apply some in the future
-- NPM modules, specifically (grabbed from J.'s delorean movie HW):
-    1 "bcryptjs": "^2.4.3",
-    2 "body-parser": "^1.17.2",
-    3 "cookie-parser": "^1.4.3",
-    4 "dotenv": "^4.0.0",
-    5 "ejs": "^2.5.7",
-    6 "express": "^4.15.3",
-    7 "express-session": "^1.15.5",
-    8 "method-override": "^2.3.9",
-    9 "morgan": "^1.8.2",
-    10 "nodemon": "^1.11.0",
-    11 "passport": "^0.3.2",
-    12 "passport-local": "^1.0.0",
-    13 "path": "^0.12.7",
-    14 "pg-promise": "^6.3.7",
-    15 "psql": "0.0.1"
-<<<<<<< HEAD
-    
-=======
----   
->>>>>>> 70bd925df927d27e56b4731fa902935c358843c0
-1 bcrypt: used to encrypt/hash the security flaw that occurs when a user submits a password upon registration. Essentially hides the passwords in the database
-2 body-parser: essentially used to grab JSON of data; also, this returns middleware that only parses json
-3 cookie-parser: essentially used to parse a passed cookie
-4 dotenv: essentially aids in authentication by storing environmental variables. the .env file holds the secretkey which ultimately hides the passwords
-5 ejs: this is the view engine that allows javascript to be run in the MVC - these also manipulate data rendered in the dom
-6 express: the all-important server-side node package that allows front and back ends to communicate
-7 express-session: allows the use of middleware for sessions
-8 method-override: allows the use of CRUD-style requests like .put/.get almost anywhere
-9 morgan: this is a logger that allows for HTTP requests in node
-10 nodemon: an awesome tool that helps see processes in node generally helps debug (and keep your cool)
-11 passport: allows for/used in authentication in node
-12 passport-local: allows authentication in node with username/password 
-13 path: allows for moving through files/indexes
-14 pg-promise: allows for calling SQL in the application to render data from a database
-15 psql: allows the use of Postgres in node
+- MVC (Model View Controller) model using CSS, JS and EJS to render the page<br>
+- CRUD functionality enabled on local host, stored with SQL, returning JSON and showing page to user in specific views<br>
+- RESTful routes using the .post, .get., .put., and .delete<br>
+- Heroku deployment with Git as well as an back-end<br>
+- API's: none for now but will apply some in the future<br>
+- NPM modules:<br>
+    1 "bcryptjs": "^2.4.3",<br>
+    2 "body-parser": "^1.17.2",<br>
+    3 "cookie-parser": "^1.4.3",<br>
+    4 "dotenv": "^4.0.0",<br>
+    5 "ejs": "^2.5.7",<br>
+    6 "express": "^4.15.3",<br>
+    7 "express-session": "^1.15.5",<br>
+    8 "method-override": "^2.3.9",<br>
+    9 "morgan": "^1.8.2",<br>
+    10 "nodemon": "^1.11.0",<br>
+    11 "passport": "^0.3.2",<br>
+    12 "passport-local": "^1.0.0",<br>
+    13 "path": "^0.12.7",<br>
+    14 "pg-promise": "^6.3.7",<br>
+    15 "psql": "0.0.1"<br>
 
-<<<<<<< HEAD
-- The technologies, APIs, and modules you used and a description of each
+## Usage:
+1 bcrypt: used to encrypt/hash the security flaw that occurs when a user submits a password upon registration. Essentially hides the passwords in the database<br>
+2 body-parser: essentially used to grab JSON of data; also, this returns middleware that only parses json<br>
+3 cookie-parser: essentially used to parse a passed cookie<br>
+4 dotenv: essentially aids in authentication by storing environmental variables. the .env file holds the secretkey which ultimately hides the passwords<br>
+5 ejs: this is the view engine that allows javascript to be run in the MVC - these also manipulate data rendered in the dom<br>
+6 express: the all-important server-side node package that allows front and back ends to communicate <br>
+7 express-session: allows the use of middleware for sessions<br>
+8 method-override: allows the use of CRUD-style requests like .put/.get almost anywhere<br>
+9 morgan: this is a logger that allows for HTTP requests in node<br>
+10 nodemon: an awesome tool that helps see processes in node generally helps debug (and keep your cool)<br>
+11 passport: allows for/used in authentication in node<br>
+12 passport-local: allows authentication in node with username/password <br>
+13 path: allows for moving through files/indexes<br>
+14 pg-promise: allows for calling SQL in the application to render data from a database<br>
+15 psql: allows the use of Postgres in node<br>
 
 
-A code snippet of a part of the app you're particularly proud of
-Any things you plan to fix or features you plan to add
-Instructions for downloading the code and running it on localhost
-=======
 ---
 A code snippet of a part of the app you're particularly proud of:
 TBD
@@ -96,4 +86,4 @@ TBD
 ---
 Instructions for downloading the code and running it on localhost:
 TBD
->>>>>>> 70bd925df927d27e56b4731fa902935c358843c0
+
