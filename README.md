@@ -74,16 +74,3 @@ To get a figure of these, several people were profiled over the course of a few 
 14 pg-promise: allows for calling SQL in the application to render data from a database<br>
 15 psql: allows the use of Postgres in node<br>
 
-
----
-A code snippet of a part of the app you're particularly proud of:
-TBD
-
----
-Any things you plan to fix or features you plan to add:
-TBD
-
----
-Instructions for downloading the code and running it on localhost:
-TBD
-
